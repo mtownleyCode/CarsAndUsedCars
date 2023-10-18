@@ -1,0 +1,14 @@
+C:\Users\BootCamp\Desktop\School Repos\CarsAndUsedCarsLab\CarsAndUsedCarsLab\obj\Debug\net6.0\CarsAndUsedCarsLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BootCamp\Desktop\School Repos\CarsAndUsedCarsLab\CarsAndUsedCarsLab\obj\Debug\net6.0\CarsAndUsedCarsLab.AssemblyInfoInputs.cache
+C:\Users\BootCamp\Desktop\School Repos\CarsAndUsedCarsLab\CarsAndUsedCarsLab\obj\Debug\net6.0\CarsAndUsedCarsLab.AssemblyInfo.cs
+C:\Users\BootCamp\Desktop\School Repos\CarsAndUsedCarsLab\CarsAndUsedCarsLab\obj\Debug\net6.0\CarsAndUsedCarsLab.csproj.CoreCompileInputs.cache
+C:\Users\BootCamp\Desktop\School Repos\CarsAndUsedCarsLab\CarsAndUsedCarsLab\bin\Debug\net6.0\CarsAndUsedCarsLab.exe
+C:\Users\BootCamp\Desktop\School Repos\CarsAndUsedCarsLab\CarsAndUsedCarsLab\bin\Debug\net6.0\CarsAndUsedCarsLab.deps.json
+C:\Users\BootCamp\Desktop\School Repos\CarsAndUsedCarsLab\CarsAndUsedCarsLab\bin\Debug\net6.0\CarsAndUsedCarsLab.runtimeconfig.json
+C:\Users\BootCamp\Desktop\School Repos\CarsAndUsedCarsLab\CarsAndUsedCarsLab\bin\Debug\net6.0\CarsAndUsedCarsLab.dll
+C:\Users\BootCamp\Desktop\School Repos\CarsAndUsedCarsLab\CarsAndUsedCarsLab\bin\Debug\net6.0\CarsAndUsedCarsLab.pdb
+C:\Users\BootCamp\Desktop\School Repos\CarsAndUsedCarsLab\CarsAndUsedCarsLab\obj\Debug\net6.0\CarsAndUsedCarsLab.dll
+C:\Users\BootCamp\Desktop\School Repos\CarsAndUsedCarsLab\CarsAndUsedCarsLab\obj\Debug\net6.0\refint\CarsAndUsedCarsLab.dll
+C:\Users\BootCamp\Desktop\School Repos\CarsAndUsedCarsLab\CarsAndUsedCarsLab\obj\Debug\net6.0\CarsAndUsedCarsLab.pdb
+C:\Users\BootCamp\Desktop\School Repos\CarsAndUsedCarsLab\CarsAndUsedCarsLab\obj\Debug\net6.0\CarsAndUsedCarsLab.genruntimeconfig.cache
+C:\Users\BootCamp\Desktop\School Repos\CarsAndUsedCarsLab\CarsAndUsedCarsLab\obj\Debug\net6.0\ref\CarsAndUsedCarsLab.dll
