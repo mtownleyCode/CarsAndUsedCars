@@ -62,7 +62,7 @@ namespace CarsAndUsedCarsLab.UI
 
         }
 
-        public void Edit(Person person)
+        private void Edit(Person person)
         {
             bool proceed = false;
             bool redoDepartmentLoop = true;
@@ -114,7 +114,7 @@ namespace CarsAndUsedCarsLab.UI
 
         }
 
-        public bool ValidateStringAnswer()
+        private bool ValidateStringAnswer()
         {
             string validAnswer = "";
 

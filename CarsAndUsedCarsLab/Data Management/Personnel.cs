@@ -10,15 +10,9 @@ namespace CarsAndUsedCarsLab.Data_Management
 {
     internal class Personnel
     {
-        public static void AddPersonnel(Person person)
-        {
-            PersonnelList.personnelPeople.Add(person);
-        }
+        public static void AddPersonnel(Person person) => PersonnelList.personnelPeople.Add(person);
 
-        public static void RemovePersonnel(Person person)
-        {
-            PersonnelList.personnelPeople.Remove(person);
-        }
+        public static void RemovePersonnel(Person person) => PersonnelList.personnelPeople.Remove(person);
 
     }
 

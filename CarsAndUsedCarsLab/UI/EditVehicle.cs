@@ -62,7 +62,7 @@ namespace CarsAndUsedCarsLab.UI
 
         }
 
-        public void Edit(Vehicle currentVehicle)
+        private void Edit(Vehicle currentVehicle)
         {
 
             string validAnswer = "";
@@ -80,6 +80,8 @@ namespace CarsAndUsedCarsLab.UI
 
             if (proceed)
             {
+                Console.WriteLine();
+
                 Console.WriteLine("What do you want the year to be?");
 
                 currentVehicle.Year = ValidateIntAnswer();
@@ -94,6 +96,8 @@ namespace CarsAndUsedCarsLab.UI
 
             if (proceed)
             {
+                Console.WriteLine();
+
                 Console.WriteLine("What do you want the make to be?");
 
                 currentVehicle.Make = Console.ReadLine();
@@ -108,6 +112,8 @@ namespace CarsAndUsedCarsLab.UI
             
             if (proceed)
             {
+                Console.WriteLine();
+
                 Console.WriteLine("What do you want the model to be?");
 
                 currentVehicle.Model = Console.ReadLine();
@@ -122,6 +128,8 @@ namespace CarsAndUsedCarsLab.UI
 
             if (proceed)
             {
+                Console.WriteLine();
+
                 Console.WriteLine("What do you want the color to be?");
 
                 currentVehicle.Color = Console.ReadLine();
@@ -136,6 +144,8 @@ namespace CarsAndUsedCarsLab.UI
 
             if (proceed)
             {
+                Console.WriteLine();
+
                 Console.WriteLine("What do you want the price to be?");
 
                 currentVehicle.Price = ValidateDoubleAnswer();
@@ -203,9 +213,12 @@ namespace CarsAndUsedCarsLab.UI
                         redoLoop = false;
                                                 
                     }
+
                 }
 
             }
+
+            Console.WriteLine();
 
             if (usedVehicle.NewOrUsed == "used")
             {
@@ -224,7 +237,7 @@ namespace CarsAndUsedCarsLab.UI
 
         }
 
-        public bool ValidateStringAnswer() 
+        private bool ValidateStringAnswer() 
         {
             string validAnswer = "";
 
@@ -265,7 +278,7 @@ namespace CarsAndUsedCarsLab.UI
 
         }
 
-        public int ValidateIntAnswer()
+        private int ValidateIntAnswer()
         {
             int validInt = 0;
             int finalInt;
@@ -293,7 +306,7 @@ namespace CarsAndUsedCarsLab.UI
 
         }
 
-        public double ValidateDoubleAnswer()
+        private double ValidateDoubleAnswer()
         {
             double validDouble = 0;
 

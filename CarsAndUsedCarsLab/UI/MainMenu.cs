@@ -1,10 +1,11 @@
 ﻿using CarsAndUsedCarsLab.Data;
+using System.Reflection.Metadata.Ecma335;
 
 namespace CarsAndUsedCarsLab.UI
 {
     public class MainMenu
     {
-        public void MainDriver()
+        public bool MainDriver()
         {
             int iCNT = 1;
             int validNumber;
@@ -14,7 +15,8 @@ namespace CarsAndUsedCarsLab.UI
             
             bool exit = false;
             bool redoLoop = true;
-                        
+            bool continueOn = true;
+
             Action action;
 
             MenuItems menuItems = new MenuItems();
@@ -110,10 +112,15 @@ namespace CarsAndUsedCarsLab.UI
 
                     else
                     {
+                        if (validNumber == numOfMenuItems - 1)
+                        {
+                            continueOn = true;
+                        }
                         if (validNumber == numOfMenuItems)
                         {
                             redoLoop = false;
                             exit = true;
+                            continueOn = false;
                         }
                         else
                         {
@@ -152,7 +159,9 @@ namespace CarsAndUsedCarsLab.UI
 
                 redoLoop = true;
            
-            } 
+            }
+
+            return continueOn;
 
         }
 

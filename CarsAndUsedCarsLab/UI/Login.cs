@@ -43,19 +43,15 @@ namespace CarsAndUsedCarsLab.UI
 
                 else
                 {
-                    //Console.WriteLine();
-
                     if (validNumber == PersonnelList.personnelPeople.Count + 1)
                     {
                         redoLoop = false;
                     }
                     else
                     {
-                        _personnelDb.CurrentUser = PersonnelList.personnelPeople[validNumber - 1];
+                        _personnelDb.CurrentUser = PersonnelList.personnelPeople[validNumber - 1];                        
 
-                        mainMenu.MainDriver();
-
-                        redoLoop = true;
+                        redoLoop = false;
 
                     }
 
