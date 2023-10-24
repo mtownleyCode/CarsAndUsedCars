@@ -7,8 +7,6 @@ namespace CarsAndUsedCarsLab.UI
 {
     public class RemoveVehicle
     {
-        static PersonnelDb personnelDb = PersonnelDb.Instance();
-
         public void SellVehicleFromInventory()
         {
             int validNumber = 0;
@@ -68,7 +66,7 @@ namespace CarsAndUsedCarsLab.UI
                         {
                             if (validAnswer == "yes")
                             {
-                                Person person = personnelDb.CurrentUser;
+                                Person person = PersonnelDb.CurrentUser;
                                 person.CarsSoldThisMonth++;
 
                                 Console.WriteLine();

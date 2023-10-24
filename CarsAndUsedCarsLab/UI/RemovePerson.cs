@@ -21,9 +21,6 @@ namespace CarsAndUsedCarsLab.UI
             Person person = new Person();
             PersonnelFrame personnelFrame = new PersonnelFrame();
 
-            PersonnelDb _personnelDb = PersonnelDb.Instance();
-
-
             while (redoPersonLoop)
             {
                 redoProceedLoop = true;
@@ -59,7 +56,7 @@ namespace CarsAndUsedCarsLab.UI
                             redoPersonLoop = false;
                         }
 
-                        else if (PersonnelList.personnelPeople[validNumber - 1] == _personnelDb.CurrentUser)
+                        else if (PersonnelList.personnelPeople[validNumber - 1] == PersonnelDb.CurrentUser)
                         {
                             Console.WriteLine();
                             

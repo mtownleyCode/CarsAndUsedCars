@@ -93,7 +93,7 @@ namespace CarsAndUsedCarsLab.UI
 
                     person.Department = Console.ReadLine(); 
                     if (person.Department == "" ||
-                        !PersonnelDb.Instance().departments.Contains(person.Department))
+                        !PersonnelDb.departments.Contains(person.Department))
                     {
                         Console.WriteLine();
 

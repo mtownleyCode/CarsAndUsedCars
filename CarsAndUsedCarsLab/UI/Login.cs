@@ -2,11 +2,8 @@
 
 namespace CarsAndUsedCarsLab.UI
 {
-    internal class Login
+    public class Login
     {
-
-        static PersonnelDb _personnelDb = PersonnelDb.Instance();
-    
         public void LoginMenu()
         {
             int validNumber = 0;
@@ -49,7 +46,7 @@ namespace CarsAndUsedCarsLab.UI
                     }
                     else
                     {
-                        _personnelDb.CurrentUser = PersonnelList.personnelPeople[validNumber - 1];                        
+                        PersonnelDb.CurrentUser = PersonnelList.personnelPeople[validNumber - 1];                        
 
                         redoLoop = false;
 

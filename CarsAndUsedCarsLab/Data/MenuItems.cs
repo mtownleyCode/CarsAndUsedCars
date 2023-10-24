@@ -110,7 +110,7 @@ namespace CarsAndUsedCarsLab.Data
         {
             { 1, "View New Inventory" },
             { 2, "View Used Inventory" },
-            { 3, "View Inventory" },
+            { 3, "View Full Inventory" },
             { 4, "Add Vehicle" },
             { 5, "Edit Vehicle" },
             { 6, "Sell Vehicle" },

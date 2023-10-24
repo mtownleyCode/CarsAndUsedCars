@@ -21,9 +21,6 @@ namespace CarsAndUsedCarsLab.UI
 
             MenuItems menuItems = new MenuItems();
             
-            PersonnelDb _personnelDb = PersonnelDb.Instance();
-
-
             Console.WriteLine();
 
             while (!exit)
@@ -33,7 +30,7 @@ namespace CarsAndUsedCarsLab.UI
                 Console.WriteLine(String.Format("{0,-13} {1,-6} {2, 32}", "=", "Action", "="));
                 Console.WriteLine(String.Format("{0,-6} {1,-6} {2, -37} {3, 1}", "=", "---", "--------------------------------", "="));
 
-                if (_personnelDb.CurrentUser.Department.ToLower() == "leader")
+                if (PersonnelDb.CurrentUser.Department.ToLower() == "leader")
                 {
                     foreach (var entry in menuItems.leaderMenu)
                     {
@@ -53,7 +50,7 @@ namespace CarsAndUsedCarsLab.UI
 
                 }
 
-                if (_personnelDb.CurrentUser.Department.ToLower() == "human resources")
+                if (PersonnelDb.CurrentUser.Department.ToLower() == "human resources")
                 {
                     foreach (var entry in menuItems.hrMenu)
                     {
@@ -73,7 +70,7 @@ namespace CarsAndUsedCarsLab.UI
 
                 }
 
-                if (_personnelDb.CurrentUser.Department.ToLower() == "sales")
+                if (PersonnelDb.CurrentUser.Department.ToLower() == "sales")
                 {
                     foreach (var entry in menuItems.salesMenu)
                     {
@@ -126,21 +123,21 @@ namespace CarsAndUsedCarsLab.UI
                         {
                             Console.WriteLine();
 
-                            if (_personnelDb.CurrentUser.Department.ToLower() == "leader")
+                            if (PersonnelDb.CurrentUser.Department.ToLower() == "leader")
                             {
                                 action = menuItems.GetLeaderMenuPath(validNumber);
                                 action();
 
                             }
 
-                            if (_personnelDb.CurrentUser.Department.ToLower() == "human resources")
+                            if (PersonnelDb.CurrentUser.Department.ToLower() == "human resources")
                             {
                                 action = menuItems.GetHrMenuPath(validNumber);
                                 action();
 
                             }
 
-                            if (_personnelDb.CurrentUser.Department.ToLower() == "sales")
+                            if (PersonnelDb.CurrentUser.Department.ToLower() == "sales")
                             {
                                 action = menuItems.GetSalesMenuPath(validNumber);
                                 action();

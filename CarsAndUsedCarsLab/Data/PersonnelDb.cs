@@ -1,39 +1,14 @@
 ﻿
 using CarsAndUsedCarsLab.Models;
-using System.Net.Http.Headers;
 
 namespace CarsAndUsedCarsLab.Data
 {
-    sealed class PersonnelDb
+    public class PersonnelDb
     {
-        private PersonnelDb() { }
 
-        private static PersonnelDb _instance;
-        private static readonly object _lock = new Object();
+        public static Person? CurrentUser;
 
-        public static PersonnelDb Instance()
-        {
-            if (_instance == null)
-            {
-                lock (_lock)
-                {
-                    if (_instance == null)
-                    {
-                        _instance = new PersonnelDb();
-                    }
-
-                }
-
-                _instance = new PersonnelDb();
-            }
-
-            return _instance;
-
-        }
-
-        public Person? CurrentUser;
-
-        List<string> names = new List<string>()
+        public static List<string> names = new List<string>()
         {
             "Trent Smith",
             "Carrie Adams",
@@ -42,7 +17,7 @@ namespace CarsAndUsedCarsLab.Data
             "Christine Conway"
         };
 
-        public List<string> departments = new List<string>()
+        public static List<string> departments = new List<string>()
         {
             "Leader",
             "Sales",
